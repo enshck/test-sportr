@@ -1,0 +1,17 @@
+{
+  "roots": ["<rootDir>/src"],
+  "transform": {
+    "^.+\\.tsx?$": "ts-jest"
+  },
+  "setupFilesAfterEnv": [],
+  "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
+  "moduleNameMapper": {
+    "\\.(css)$": "identity-obj-proxy"
+  },
+  "testEnvironment": "jsdom",
+  "moduleDirectories": [
+    "node_modules",
+    "src"
+  ]
+}
