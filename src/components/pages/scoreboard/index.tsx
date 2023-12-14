@@ -1,7 +1,10 @@
 import style from './style.module.css';
+import { Scoreboard } from './components/scoreboard';
 
 export const ScoreboardPage = () => (
   <div className={style.root}>
-    <h1>Scoreboard page</h1>
+    <div className={style.scoreboardContainer}>
+      <Scoreboard />
+    </div>
   </div>
 );

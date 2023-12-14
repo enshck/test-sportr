@@ -5,5 +5,7 @@ import { ScoreboardPage } from './index';
 it('renders check', () => {
   render(<ScoreboardPage />);
 
-  expect(screen.getByText(/scoreboard page/i)).toBeVisible();
+  expect(
+    screen.getByText(/at the moment any match wasn`t started/i)
+  ).toBeVisible();
 });

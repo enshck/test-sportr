@@ -1,0 +1,27 @@
+.root {
+    width: 100%;
+    box-shadow: 0px 0px 5px 5px var(--border-color);
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.emptyContainer {
+    height: 200px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.card {
+    width: 100%;
+}
